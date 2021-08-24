@@ -30,7 +30,7 @@ namespace XMLRegexTest
             }
 
             // Logic without added seperators.
-            Regex withoutSeperatorRegex = new Regex(@"\s+body\s*[:=]\s*(.*)([]}>""] | (<\/step>))");
+            Regex withoutSeperatorRegex = new Regex(@"\s+body\s*[:=]\s*(<.*)([]}>""] | (<\/step>))");
             if (withoutSeperatorRegex.Match(xmlSteps).Success == true)
             {
                 body = withoutSeperatorRegex.Match(xmlSteps).Groups[1].Value;
