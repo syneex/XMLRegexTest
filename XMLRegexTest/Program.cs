@@ -26,7 +26,7 @@ namespace XMLRegexTest
             }
             else
             {
-                Console.WriteLine("Do VSTS TestExecutor Logic here.");
+                Console.WriteLine("Do DevOps Logic here.");
             }
 
             // Logic without added seperators.
@@ -38,7 +38,7 @@ namespace XMLRegexTest
             }
             else
             {
-                Console.WriteLine("Do VSTS TestExecutor Logic here.");
+                Console.WriteLine("Do DevOps Logic here.");
             }
 
             Console.ReadKey();
